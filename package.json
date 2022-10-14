@@ -38,16 +38,16 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'husky' && npm run lint"
+      "pre-commit": "echo 'husky' && npm run lint-fix"
     }
   },
   "lint-staged": {
     "src/**/*.{css，scss,less}": [
-      "npm run lint",
+      "npm run lint-fix",
       "git commit"
     ],
     "src/**/*.{js,vue}": [
-      "npm run lint",
+      "npm run lint-fix",
       "git commit"
     ]
   }
