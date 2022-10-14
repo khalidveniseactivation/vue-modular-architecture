@@ -46,7 +46,7 @@
 
 <script>
 export default {
-  name: 'Cart',
+  name: "Cart",
 
   computed: {
     items() {
